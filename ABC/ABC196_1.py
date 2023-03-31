@@ -1,0 +1,5 @@
+a,b = (int(x) for x in input().split())
+c,d = (int(x) for x in input().split())
+f = max(a,b)
+s = min(c,d)
+print(f-s)
